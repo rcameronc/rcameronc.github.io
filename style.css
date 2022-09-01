@@ -179,6 +179,10 @@ height:3%;
     background-image:url(./imgs/bahamas.png);
   }
 
+ #svalbard-pic{
+    background-image:url(./imgs/svalbard.jpg);
+  }
+
   #gpr-pic{
     background-image:url(./imgs/gpr.png);
   }
@@ -260,10 +264,39 @@ height:3%;
         }
 
 
+        .basinrange{
+            box-shadow: 2px 4px 8px 5px #999999;
+                    background-image:url(imgs/basinrange.jpg);
+                    position: relative;
+                    background-size:cover;
+                    margin-top:10%;
+                    margin-left:3%;
+
+                    width:300px;
+                    height:300px;
+                    border-radius:50%;
+                    background-position:center;
+
+        }
+
+        .caicos{
+            box-shadow: 2px 4px 8px 5px #999999;
+                    background-image:url(imgs/caicos.jpg);
+                    position: relative;
+                    background-size:cover;
+                    margin-top:10%;
+                    margin-left:3%;
+
+                    width:300px;
+                    height:300px;
+                    border-radius:50%;
+                    background-position:center;
+
+        }
 
            .bahamas{
             box-shadow: 2px 4px 8px 5px #999999;
-                    background-image:url(imgs/bahamas.jpg);
+                    background-image:url(imgs/bahamas2.jpeg);
                     position: relative;
                     background-size:cover;
                     margin-top:10%;
@@ -352,7 +385,7 @@ height:3%;
     font-size:18px; /*maybe should be bigger? was 16x */
     font-family: 'Bell MT';
     line-height: 2.0;
-
+    padding: 1rem;
 
   }
 
@@ -478,7 +511,7 @@ fieldset:disabled a.btn {
       font-size:24px;
     }
 
-#contact-text{
+#fieldwork-text{
   font-size:36px;
 }
 
