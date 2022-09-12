@@ -29,20 +29,6 @@ h3{    font-family: 'Bell MT';
 color:rgb(88,88,88);
 }
 
-
-/*.summary{
-background-color:rgba(39, 62, 62, 0.3);
-width:96%;
-padding-top:1%;
-padding-bottom:1%;
-padding-left:2%;
-padding-right:2%;
-font-family: 'Bell MT';
-color:rgb(88,88,88);
-
-height:3%;
-}*/
-
 .green{
 
   background-color:rgba(39, 62, 62, 0.3);
@@ -99,7 +85,7 @@ height:3%;
   }
 
    .portrait{
-                    background-image:url(imgs/vieques_crop.jpg);
+                    background-image:url(imgs/vieques_crop_lo.jpg);
                     box-shadow: 2px 4px 8px 5px #999999; /*KAC added*/
                     background-size:cover;
 
@@ -109,13 +95,6 @@ height:3%;
                     background-position:center;
 
         }
-
-    .instructor{
-    font-size:1.4vw;
-    text-align: center;
-   color:rgba(39, 62, 62, 0.8);
-
-  }
 
 
 .course-name{
