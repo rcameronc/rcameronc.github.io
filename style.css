@@ -223,6 +223,34 @@ color:rgb(88,88,88);
 
         }
 
+        .hawaii{
+            box-shadow: 2px 4px 8px 5px #999999;
+                    background-image:url(imgs/molokai_lo.jpg);
+                    position: relative;
+                    background-size:cover;
+                    margin-top:10%;
+                    margin-left:3%;
+
+                    width:300px;
+                    height:300px;
+                    border-radius:50%;
+                    background-position:center;
+        }
+
+        .deathvalley{
+            box-shadow: 2px 4px 8px 5px #999999;
+                    background-image:url(imgs/deathvalley_lo.jpg);
+                    position: relative;
+                    background-size:cover;
+                    margin-top:10%;
+                    margin-left:3%;
+
+                    width:300px;
+                    height:300px;
+                    border-radius:50%;
+                    background-position:center;
+        }        
+
         .caicos{
             box-shadow: 2px 4px 8px 5px #999999;
                     background-image:url(imgs/caicos_lo.jpg);
