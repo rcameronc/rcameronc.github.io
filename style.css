@@ -85,7 +85,9 @@ color:rgb(88,88,88);
   }
 
    .portrait{
-                    background-image:url(imgs/vieques_crop_lo.jpg);
+/*                    background-image:url(imgs/vieques_crop_lo.jpg);*/ 
+                    background-image:url(imgs/221231_headshot_lo.jpeg); 
+
                     box-shadow: 2px 4px 8px 5px #999999; /*KAC added*/
                     background-size:cover;
 
