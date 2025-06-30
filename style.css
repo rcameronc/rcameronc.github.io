@@ -66,6 +66,14 @@ color:rgb(88,88,88);
 
   }
 
+    .sublabel{
+    width:30%;
+    font-size:1.75vw;
+    text-align: center;
+   color:rgba(0, 0, 0, 1);
+
+  }
+
 
   .text{
   width:40%;
@@ -314,7 +322,7 @@ color:rgb(88,88,88);
   .menu-links {
     font-size: 18px; /* kac -- was 16 */
       text-align: center;
-      width: 15%;
+      width: 12%;
       margin-left: 2%;
       margin-right: 2%;
       position: relative;
