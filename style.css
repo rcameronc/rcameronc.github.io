@@ -60,7 +60,7 @@ color:rgb(88,88,88);
 
   .label{
     width:20%;
-    font-size:3.5vw;
+    font-size:3.3vw;
     text-align: center;
    color:rgba(39, 62, 62, 0.8);
 
@@ -68,7 +68,7 @@ color:rgb(88,88,88);
 
     .sublabel{
     width:30%;
-    font-size:1.75vw;
+    font-size:1.6vw;
     text-align: center;
    color:rgba(0, 0, 0, 1);
 
@@ -135,7 +135,94 @@ color:rgb(88,88,88);
 
   }
 
+
+/* ================= GROUP PAGE ================= */
+
+.group-row{
+  vertical-align: top;
+}
+
+.group-pics{
+  width:20%;
+  padding-left:4%;
+}
+
+.group-portrait{
+  box-shadow: 2px 4px 8px 5px #999999;
+  background-size:cover;
+  background-position:center;
+  width:200px;
+  height:200px;
+  border-radius:50%;
+}
+
+.group-info{
+  width:80%;
+  padding-left:2%;
+  padding-right:5%;
+}
+
+.group-name{
+  font-family: 'Bell MT';
+  font-size:2.2vw;
+  color:rgba(39, 62, 62, 0.9);
+  margin-bottom:0.3em;
+}
+
+.group-title{
+  font-family: 'Bell MT';
+  font-size:1.5vw;
+  color:rgba(0,0,0,0.7);
+  margin-bottom:0.8em;
+}
+
+.group-bio{
+  font-family: 'Bell MT';
+  font-size:1.2vw;
+  line-height:1.8;
+  color:rgba(0,0,0,0.9);
+}
+
+/* Mobile scaling */
+@media (max-device-width : 667px) {
+
+  .group-portrait{
+    width:300px;
+    height:300px;
+  }
+
+  .group-name{
+    font-size:36px;
+  }
+
+  .group-title{
+    font-size:28px;
+  }
+
+  .group-bio{
+    font-size:26px;
+  }
+}
+
+
+/* ================= GROUP PAGE END ================= */
+
+
+
+
   .research-pics{
+
+/*    background-color:red;
+*//*    width:100%;
+*/    padding-left:2%;
+/*    border:black solid 1px;
+*/    width:20%;
+    font-size:16px;
+
+
+  }
+
+    .group-pics{
 
 /*    background-color:red;
 *//*    width:100%;
